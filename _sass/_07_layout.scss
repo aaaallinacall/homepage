@@ -271,18 +271,18 @@ body.video cite { color: #fff; }
     font-weight: 300;
 }
 
-#footer {
+#footer-links {
     padding-top: 30px;
     padding-bottom: 20px;
     background: $footer-bg;
     color: $footer-color;
     }
 
-    #footer a {
+    #footer-links a {
         color: $footer-link-color;
     }
-    #footer h4,
-    #footer h5 {
+    #footer-links h4,
+    #footer-links h5 {
         letter-spacing: 1px;
         color: #fff;
         text-transform: uppercase;
@@ -299,6 +299,10 @@ body.video cite { color: #fff; }
     padding-top: 30px;
 }
 
+#subfooter-right ul.inline-list {
+    float: right;
+}
+
 #subfooter-left ul.inline-list {
     float: left;
 }
@@ -313,7 +317,8 @@ body.video cite { color: #fff; }
 }
 
 .social-icons {
-    margin-bottom: 10px !important;
+    display: table;
+    margin: 0 0 10px auto !important;
 
 // Beware of SCSS-Syntax here
   li {
