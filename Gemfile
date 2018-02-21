@@ -1,12 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '>=3.6.2'
 
 group :jekyll_plugins do
-  gem 'jekyll-gist'
-  gem 'jekyll-paginate'
+  gem 'jekyll-gist', '>=1.4.1'
+  gem 'jekyll-paginate', '>=1.1.0'
   gem 'jekyll-asciidoc'
-  gem 'jekyll-liquify'
 end
 
 gem 'asciidoctor', '~> 1.5.4'

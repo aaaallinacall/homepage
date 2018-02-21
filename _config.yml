@@ -17,13 +17,13 @@ slogan: 'One call for all your needs'
 description: '»AAA All In A Call« is a company founded upon meeting all your house needs.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: "AAA All In A Call © {{ site.time | date: '%Y' }}"
+credits: "AAA All In A Call"
 
 email: 'aaaallinacall@gmail.com'
 
 # Main author of the website
 # See > authors.yml
-author: alonso
+author: Alonso
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
@@ -33,10 +33,7 @@ baseurl: '/homepage'
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
 #
-# Example: <img src="{{ site.urlimg | liquify }}{{ post.image.title }}" />
-# Markdown-Example for posts ![Image Text]({{ site.urlimg | liquify }}image.jpg)
-#
-urlimg: '{{ site.url }}{{ site.baseurl }}/images/'
+urlimg: 'https://aaaallinacall.com/homepage/images/'
 
 
 # Logo size is 600x80 pixels
