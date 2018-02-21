@@ -27,13 +27,13 @@ author: Alonso
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://aaaallinacall.com'
+url: 'http://aaaallinacall.com'
 baseurl: '/homepage'
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
 #
-urlimg: 'https://aaaallinacall.com/homepage/images/'
+urlimg: 'http://aaaallinacall.com/homepage/images/'
 
 
 # Logo size is 600x80 pixels
