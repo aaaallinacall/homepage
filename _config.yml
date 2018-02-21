@@ -44,7 +44,6 @@ plugins_dir:
     - jekyll-asciidoc
     - jekyll-gist
     - jekyll-paginate
-    - jekyll-liquify
 
 
 #       ____              _             __  _
