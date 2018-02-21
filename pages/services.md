@@ -1,40 +1,51 @@
 ---
 layout: page
 show_meta: false
-title: "Showcased services"
+title: "Services"
 subheadline: "Portfolio"
 header:
-   image_fullwidth: "header_unsplash_5.jpg"
-teaser: "These are some of the more common services right now. We are more than happy to accomodate for other too!Just <a href='{{ site.url }} {{ site.baseurl}}/contact'>contact us!</a>"
+   image_fullwidth: "services_header.jpg"
+teaser: "These are some of the more common services right now. We are more than happy to accomodate for other too!Just contact us!"
+breadcrumb: true
 permalink: "/services/"
 ---
 
 <div class="row t60">
     <div class="medium-6 columns b30">
-        <img src="{{ site.url }}{{ site.baseurl }}{{ site.img }}webdesign_screenshot_nixdorf.jpg" alt="">
-        <p> Website: Nixdorf Internatsberatung &amp; Schulberatung</p>
+        <a href="concrete">
+          <img src="{{ site.url }}{{ site.baseurl }}{{ site.img }}/concrete/concrete_header.jpg" alt="">
+        </a>
+        <p> Concrete </p>
     </div><!-- /.medium-6.columns -->
 
     <div class="medium-6 columns b30">
-        <img src="{{ site.url }}{{ site.baseurl }}{{ site.img }}webdesign_screenshot_jcorneille.jpg" alt="">
-        <p>Website: <a href="http://jcorneille.de">Grafik Design Jeannette Corneille</a></p>
+        <a href="treeremoval">
+        <img src="{{ site.url }}{{ site.baseurl }}{{ site.img }}/treeremoval/treeremoval_header.jpg" alt="">
+      </a>
+        <p> Tree Removal </p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 
 
 <div class="row t30">
     <div class="medium-4 columns">
-        <img src="{{ site.url }}{{ site.baseurl }}{{ site.img }}webdesign_screenshot_stilwandel.jpg" alt="">
-        <p>Website: <a href="http://stilwandel-koeln.de">Stilwandel-Koeln.de</a></p>
+        <a href="snowremoval">
+        <img src="{{ site.url }}{{ site.baseurl }}{{ site.img }}/snowremoval/snowremoval_header.jpg" alt="">
+      </a>
+        <p> Snow Removal </p>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns">
-        <img src="{{ site.url }}{{ site.baseurl }}{{ site.img }}webdesign_screenshot_tarnkappe.jpg" alt="">
-        <p>Website: <a href="http://tarnkarppe.info">Tarnkappe.info</a></p>
+        <a href="landscaping">
+        <img src="{{ site.url }}{{ site.baseurl }}{{ site.img }}/landscaping/landscaping_header.jpg" alt="">
+      </a>
+        <p> Landscaping </p>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns">
-        <img src="{{ site.url }}{{ site.baseurl }}{{ site.img }}webdesign_screenshot_schriefer.jpg" alt="">
-        <p>Website: <a href="http://www.psychotherapie-schriefer.de/">Praxis für psychologische Psychotherapie Simone Schriefer</a></p>
+        <a href="granite">
+        <img src="{{ site.url }}{{ site.baseurl }}{{ site.img }}/granite/granite_header.jpg" alt="">
+      </a>
+        <p> Granite </p>
     </div><!-- /.medium-4.columns -->
 </div><!-- /.row -->

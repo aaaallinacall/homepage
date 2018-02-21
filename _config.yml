@@ -17,7 +17,8 @@ slogan: 'One call for all your needs'
 description: '»AAA All In A Call« is a company founded upon meeting all your house needs.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: "AAA All In A Call"
+credits: AAA All In A Call
+address: Charlotte, NC 28105
 
 email: 'aaaallinacall@gmail.com'
 
@@ -44,7 +45,6 @@ plugins_dir:
     - jekyll-asciidoc
     - jekyll-gist
     - jekyll-paginate
-    - jekyll-liquify
 
 
 #       ____              _             __  _
@@ -107,7 +107,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: alonso     # Default author for pages
+      author:     # Default author for pages
   -
     scope:
       path: ''
@@ -116,7 +116,7 @@ defaults:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: alonso     # Default author for posts
+      author:     # Default author for posts
 
 
 
@@ -150,19 +150,18 @@ google_site_verification:    ''
 #      / ____/___ __   __(_)________  ____  _____
 #     / /_  / __ `/ | / / / ___/ __ \/ __ \/ ___/
 #    / __/ / /_/ /| |/ / / /__/ /_/ / / / (__  )
-#   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
-#                                                 More information » https://mathiasbynens.be/notes/touch-icons
+#   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Buttons
+#                                                 More information » https://mathiasbynens.be/notes/icons
 
 favicon-32x32:                          'favicon-32x32.png'
-touch-icon-192x192:                     'touch-icon-192x192.png'
-apple-touch-icon-180x180-precomposed:   'apple-touch-icon-180x180-precomposed.png'
-apple-touch-icon-152x152-precomposed:   'apple-touch-icon-152x152-precomposed.png'
-apple-touch-icon-144x144-precomposed:   'apple-touch-icon-144x144-precomposed.png'
-apple-touch-icon-120x120-precomposed:   'apple-touch-icon-120x120-precomposed.png'
-apple-touch-icon-114x114-precomposed:   'apple-touch-icon-114x114-precomposed.png'
-apple-touch-icon-76x76-precomposed:     'apple-touch-icon-76x76-precomposed.png'
-apple-touch-icon-72x72-precomposed:     'apple-touch-icon-72x72-precomposed.png'
-apple-touch-icon-precomposed:           'apple-touch-icon-precomposed.png'
+apple-icon-180x180-precomposed:         'apple-icon-180x180-precomposed.png'
+apple-icon-152x152-precomposed:         'apple-icon-152x152-precomposed.png'
+apple-icon-144x144-precomposed:         'apple-icon-144x144-precomposed.png'
+apple-icon-120x120-precomposed:         'apple-icon-120x120-precomposed.png'
+apple-icon-114x114-precomposed:         'apple-icon-114x114-precomposed.png'
+apple-icon-76x76-precomposed:           'apple-icon-76x76-precomposed.png'
+apple-icon-72x72-precomposed:           'apple-icon-72x72-precomposed.png'
+apple-icon-precomposed:                 'apple-icon-precomposed.png'
 msapplication_tileimage:                'msapplication_tileimage.png'               # Size 144x144
 msapplication_tilecolor:                '#fabb00'
 
@@ -186,13 +185,6 @@ og_type:                            'website'
 #
 #  Open _data/socialmedia.yml to adjust the left and right topbar navigation
 #
-
-socialmedia:
-    facebook: aaaallinacall
-    youtube: aaaallinacall
-    yelp: aaaallinacall
-    instagram: aaaallinacall
-
 
 #        ____  _
 #       / __ \(_)________ ___  _______

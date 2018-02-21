@@ -1,19 +1,19 @@
 # - name: Yelp
-#   url: http://www.yelp.com/{{ site.yelp }}
+#   url: http://www.yelp.com/aaaallinacall
 #   class: icon-yelp
 #   title: "Check us out on yelp!"
 
 - name: YouTube
-  url: http://www.youtube.com/{{ site.socialmedia.youtube }}
+  url: http://www.youtube.com/aaaallinacall
   class: icon-youtube
   title: "Follow us on youtube!"
 
 - name: Facebook
-  url: http://www.facebook.com/{{ site.socialmedia.facebook }}
+  url: http://www.facebook.com/aaaallinacall
   class: icon-facebook
   title: "Follow us on facebook!"
 
-# - name: Instagram
-#   url: http://www.instagram.com/{{ site.instagram }}
-#   class: icon-instagram
-#   title: "Follow us on instagram!"
+- name: Instagram
+  url: http://www.instagram.com/aaaallinacall
+  class: icon-instagram
+  title: "Follow us on instagram!"

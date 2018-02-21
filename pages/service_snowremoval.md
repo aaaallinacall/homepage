@@ -1,10 +1,16 @@
 ---
 layout: page
-title:  "Snow Removal"
-subheadline:  "We are fast and ready for snow!"
+title:  Snow Removal
+subheadline:  We are fast and ready for snow!
 header:
-   image_fullwidth: "header_unsplash_5.jpg"
-teaser:
+   image_fullwidth: snowremoval/snowremoval_header.jpg
+teaser: "That pesky snow getting in the way of your car? No problem! Call us and
+we can have your snow removed as early as you want."
+breadcrumb: true
+categories:
+    - services
+tag:
+    - services
 permalink: "/services/snowremoval/"
 ---
 

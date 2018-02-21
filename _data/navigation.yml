@@ -18,6 +18,8 @@
     url: "/services/landscaping/"
   - title: "Snow Removal"
     url: "/services/snowremoval/"
+  - title: "Tree Removal"
+    url: "/services/treeremoval/"
 
 
 - title: All
