@@ -27,13 +27,13 @@ author: Alonso
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'http://aaaallinacall.com'
+url: ' https://aaaallinacall.github.io'
 baseurl: '/homepage'
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
 #
-urlimg: 'http://aaaallinacall.com/homepage/images/'
+img: '/images/'
 
 
 # Logo size is 600x80 pixels
