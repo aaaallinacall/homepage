@@ -27,7 +27,7 @@ author: Alonso
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: ' https://aaaallinacall.github.io'
+url: 'https://aaaallinacall.github.io'
 baseurl: '/homepage'
 
 # This URL points directly to the images directory making
